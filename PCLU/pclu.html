@@ -772,7 +772,13 @@
     
     </script>
 
-
+<script>
+  $('.close-popup').click(function(){
+    $('video').each(function(){
+      $(this).get(0).pause();
+    })
+  });
+  </script>
 
 
   <script src="../lib/jquery/jquery.min.js"></script>
