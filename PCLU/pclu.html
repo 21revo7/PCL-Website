@@ -814,23 +814,7 @@
     
     </script>
 
-<script>
-function closeModal() {
-    var modal = document.getElementById('myModal');
-    var video = document.getElementById('modalVideo');
-    
-    modal.style.display = 'none';
-    
-    // Pause the video
-    video.pause();
-}
 
-// Example for a close button
-var closeButton = document.getElementById('closeButton');
-closeButton.addEventListener('click', closeModal);
-
-
-  </script>
 
 
   <script src="../lib/jquery/jquery.min.js"></script>
@@ -848,6 +832,37 @@ closeButton.addEventListener('click', closeModal);
 
   <!-- Template Main Javascript File -->
   <script src="../js/main.js"></script>
+
+
+  <script>
+    // Get the video element
+    var video = document.getElementById("modalVideo");
+  
+    // Get the modal element
+    var modal = document.getElementById("myModal");
+  
+    // Function to open the modal and play the video
+    function openModal() {
+      modal.style.display = "block";
+      video.play();
+    }
+  
+    // Function to close the modal and pause the video
+    function closeModal() {
+      modal.style.display = "none";
+      video.pause();
+    }
+  
+    // Close the modal if the user clicks outside of it
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        closeModal();
+      }
+    };
+  </script>
+
+
+
 
 </body>
 </html>
