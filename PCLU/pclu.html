@@ -253,6 +253,26 @@
 
 
 
+      <div class="col-md-4">
+        <div class="card card-blog">
+          <div class="card-img">
+            <a href="#" type="button" data-toggle="modal" data-target=".bd-example-modal-lg6"><img src="../pcluFiles/CompanyProfile.png" alt="" class="img-fluid"></a>
+          </div>
+          <div class="card-body">
+            <div class="card-category-box">
+              <div class="card-category">
+                <h6 class="category">Executive, Excellent, Everyday</h6>
+              </div>
+            </div>
+            <!-- <h3 class="card-title"><a href="#"></a></h3> -->
+            <p class="card-description">
+
+            </p>
+          </div>
+          
+        </div>
+      </div>
+
     
 
 
@@ -590,10 +610,11 @@
 <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Large modal</button> -->
 
 <div class="modal fade bd-example-modal-lg1" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel1" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
+  <div id="myModal" class="modal-dialog modal-lg">
     <div class="modal-content">
-      <video controls="controls">
-        <source src="../pcluFiles/MODULES/Videos/3E'S (PCL BACKGROUND)_rev0 (2).mp4" type="video/mp4" />
+      <span class="close" onclick="closeModal()">&times;</span>
+      <video id="modalVideo" controls>
+        <source src="../pcluFiles/MODULES/Videos/3E'S (PCL BACKGROUND)_rev0 (2).mp4" type="video/mp4" autoplay />
        </video>
     </div>
   </div>
@@ -602,9 +623,10 @@
 
 
 <div class="modal fade bd-example-modal-lg1" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel1" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
+  <div id="myModal" class="modal-dialog modal-lg">
     <div class="modal-content">
-      <video controls="controls">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <video id="modalVideo" controls>
         <source src="../pcluFiles/MODULES/Videos/Controlling.mp4" type="video/mp4" />
        </video>
     </div>
@@ -614,8 +636,9 @@
 
 
 <div class="modal fade bd-example-modal-lg2" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel2" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
-    <video controls="controls">
+  <div id="myModal" class="modal-dialog modal-lg">
+    <video id="modalVideo" controls>
+      <span class="close" onclick="closeModal()">&times;</span>
       <source src="../pcluFiles/MODULES/Videos/Leadership Development.mp4" type="video/mp4" />
      </video>
   </div>
@@ -623,9 +646,10 @@
 
 
 <div class="modal fade bd-example-modal-lg3" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel3" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
+  <div id="myModal" class="modal-dialog modal-lg">
     <div class="modal-content">
-      <video controls="controls">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <video id="modalVideo" controls>
         <source src="../pcluFiles/MODULES/Videos/Leading.mp4" type="video/mp4" />
        </video>
     </div>
@@ -634,9 +658,10 @@
 
 
 <div class="modal fade bd-example-modal-lg4" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel4" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
+  <div id="myModal" class="modal-dialog modal-lg">
     <div class="modal-content">
-      <video controls="controls">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <video id="modalVideo" controls>
         <source src="../pcluFiles/MODULES/Videos/Managing your Boss.mp4" type="video/mp4" />
        </video>
     </div>
@@ -645,9 +670,10 @@
 
 
 <div class="modal fade bd-example-modal-lg5" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel5" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
+  <div id="myModal" class="modal-dialog modal-lg">
     <div class="modal-content">
-      <video controls="controls">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <video id="modalVideo" controls>
         <source src="../pcluFiles/MODULES/Videos/Office Ergonomics.mp4" type="video/mp4" />
        </video>
     </div>
@@ -656,9 +682,10 @@
 
 
 <div class="modal fade bd-example-modal-lg6" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel6" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
+  <div id="myModal" class="modal-dialog modal-lg">
     <div class="modal-content">
-      <video controls="controls">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <video id="modalVideo" controls>
         <source src="../pcluFiles/MODULES/Videos/Organizing.mp4" type="video/mp4" />
        </video>
     </div>
@@ -667,9 +694,10 @@
 
 
 <div class="modal fade bd-example-modal-lg7" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel7" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
+  <div id="myModal" class="modal-dialog modal-lg">
     <div class="modal-content">
-      <video controls="controls">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <video id="modalVideo" controls>
         <source src="../pcluFiles/MODULES/Videos/PCL U Short course on 5S Practice.mp4" type="video/mp4" />
        </video>
     </div>
@@ -678,9 +706,10 @@
 
 
 <div class="modal fade bd-example-modal-lg8" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel8" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
+  <div id="myModal" class="modal-dialog modal-lg">
     <div class="modal-content">
-      <video controls="controls">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <video id="modalVideo" controls>
         <source src="../pcluFiles/MODULES/Videos/Planning.mp4" type="video/mp4" />
        </video>
     </div>
@@ -690,9 +719,10 @@
 
 
 <div class="modal fade bd-example-modal-lg9" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel9" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
+  <div id="myModal" class="modal-dialog modal-lg">
     <div class="modal-content">
-      <video controls="controls">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <video id="modalVideo" controls>
         <source src="../pcluFiles/MODULES/Videos/PCl Good Warehousing Practices GWP.mp4" type="video/mp4" />
        </video>
     </div>
@@ -702,9 +732,10 @@
 
 
 <div class="modal fade bd-example-modal-lg10" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel10" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
+  <div id="myModal" class="modal-dialog modal-lg">
     <div class="modal-content">
-      <video controls="controls">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <video id="modalVideo" controls>
         <source src="../pcluFiles/MODULES/Videos/Work Attitude.mp4" type="video/mp4" />
        </video>
     </div>
@@ -773,11 +804,20 @@
     </script>
 
 <script>
-  $('.close-popup').click(function(){
-    $('video').each(function(){
-      $(this).get(0).pause();
-    })
-  });
+function closeModal() {
+    var modal = document.getElementById('myModal');
+    var video = document.getElementById('modalVideo');
+    
+    modal.style.display = 'none';
+    
+    // Pause the video
+    video.pause();
+}
+
+// Example for a close button
+var closeButton = document.getElementById('closeButton');
+closeButton.addEventListener('click', closeModal);
+
   </script>
 
 
